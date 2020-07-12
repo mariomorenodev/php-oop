@@ -1,0 +1,19 @@
+{
+    "name": "styde/oop",
+    "description": "Proyecto demo para el curso de programacion orientado a objetos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Moreno",
+            "email": "mariomorenodev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "Styde\\": "src/"
+        }
+    }
+}
